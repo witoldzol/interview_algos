@@ -24,11 +24,13 @@ class Solution {
   public static Node lca(Node root, int v1, int v2) {
     ArrayList<Node> p1 = new ArrayList<>();
     ArrayList<Node> p2 = new ArrayList<>();
-    ArrayList<Node> pathToV1 = traverse(root, v1, p1);
-    ArrayList<Node> pathToV2 = traverse(root, v2, p2);
-    for (int i = 0; i < pathToV1.size(); i++) {
-      for (int j = 0; j < pathToV2.size(); j++) {
-        if (pathToV1.get(i) == pathToV2.get(j)) return pathToV1.get(i);
+    ArrayList<Node> pv1 = traverse(root, v1, p1);
+    ArrayList<Node> pv2 = traverse(root, v2, p2);
+    int maxLen = pv1.size() <= pv2.size() ? pv1.size() : pv2.size();
+
+    for (int i = maxLen - 1; i >= 0; i--) {
+      for (int j = maxLen - 1; j >= 0; j--) {
+        if (pv1.get(i) == pv2.get(j)) return pv1.get(i);
       }
     }
     return null;
