@@ -1,5 +1,5 @@
-import java.util.*;
-import java.io.*;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 class Node {
   Node left;
@@ -25,27 +25,31 @@ class Solution {
     ArrayList<Node> p1 = new ArrayList<>();
     ArrayList<Node> p2 = new ArrayList<>();
     ArrayList<Node> pathToV1 = traverse(root, v1, p1);
-    ArrayList<Node> pathtoV2 = traverse(root, v2, p2);
-    return pathToV1.get(0);
+    ArrayList<Node> pathToV2 = traverse(root, v2, p2);
+    for (int i = 0; i < pathToV1.size(); i++) {
+      for (int j = 0; j < pathToV2.size(); j++) {
+        if (pathToV1.get(i) == pathToV2.get(j)) return pathToV1.get(i);
+      }
+    }
+    return null;
   }
 
-  static ArrayList<Node> traverse(Node curr, int target, ArrayList<Node> path){
-    if(curr == null) return null;
+  static ArrayList<Node> traverse(Node curr, int target, ArrayList<Node> path) {
+    if (curr == null) return null;
     path.add(curr);
-    if(curr.data == target) return path;
-    ArrayList<Node> left  = traverse(curr.left, target, path);
-    ArrayList<Node> right  = traverse(curr.right, target, path);
-    if(left != null) return left;
+    if (curr.data == target) return path;
+    ArrayList<Node> left = traverse(curr.left, target, path);
+    ArrayList<Node> right = traverse(curr.right, target, path);
+    if (left != null) return left;
     return right;
   }
 
-
   public static Node insert(Node root, int data) {
-    if(root == null) {
+    if (root == null) {
       return new Node(data);
     } else {
       Node cur;
-      if(data <= root.data) {
+      if (data <= root.data) {
         cur = insert(root.left, data);
         root.left = cur;
       } else {
@@ -60,14 +64,14 @@ class Solution {
     Scanner scan = new Scanner(System.in);
     int t = scan.nextInt();
     Node root = null;
-    while(t-- > 0) {
+    while (t-- > 0) {
       int data = scan.nextInt();
       root = insert(root, data);
     }
     int v1 = scan.nextInt();
     int v2 = scan.nextInt();
     scan.close();
-    Node ans = lca(root,v1,v2);
+    Node ans = lca(root, v1, v2);
     System.out.println(ans.data);
   }
 }
