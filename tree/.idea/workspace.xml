@@ -24,6 +24,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -51,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626108120963</updated>
-      <workItem from="1626108122366" duration="1626000" />
+      <workItem from="1626108122366" duration="1750000" />
     </task>
     <servers />
   </component>
@@ -63,5 +64,9 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="812" y="518" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626108173134" />
+    <state x="698" y="382" key="extract.method.dialog" timestamp="1626382239160">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="698" y="382" key="extract.method.dialog/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626382239160" />
   </component>
 </project>
