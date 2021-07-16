@@ -49,6 +49,5 @@ class TreeHight {
     }
     scan.close();
     int height = height(root);
-    System.out.println(height);
   }
 }
