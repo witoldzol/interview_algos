@@ -37,6 +37,26 @@ class TreeValidatorTest {
     assertTrue(validator.isValidBST(tree));
   }
 
+  @Test
+  void returnFalseWhenLeftIsBiggerThanRoot(){
+    tree = new Node(5);
+    tree.left = new Node(7);
+    assertFalse(validator.isValidBST(tree));
+  }
+
+  @Test
+  void returnTrueWhenRightIsBiggerThanRoot(){
+    tree = new Node(5);
+    tree.right = new Node(7);
+    assertTrue(validator.isValidBST(tree));
+  }
+
+  @Test
+  void returnFalseWhenRightIsSmallerThanRoot(){
+    tree = new Node(5);
+    tree.right = new Node(3);
+    assertFalse(validator.isValidBST(tree));
+  }
 //  @Test
 //  void returnsFalseWhenIvalidTree(){
 //    assertFalse(validBST.isValidBST(invalidTree));
