@@ -1,18 +1,6 @@
 import java.util.Scanner;
 
-class LowestCommonAncestor {
-  Node left;
-  Node right;
-  int data;
-
-  Node(int data) {
-    this.data = data;
-    left = null;
-    right = null;
-  }
-}
-
-class Solution {
+class CommonAncestor {
 
   public static Node lca(Node root, int v1, int v2) {
     //if both values are bigger than current root node, we can move 'right'

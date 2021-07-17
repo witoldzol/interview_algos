@@ -1,17 +1,5 @@
 import java.util.Scanner;
 
-class Node {
-  Node left;
-  Node right;
-  int data;
-
-  Node(int data) {
-    this.data = data;
-    left = null;
-    right = null;
-  }
-}
-
 class TreeHight {
 
   public static int height(Node root) {
