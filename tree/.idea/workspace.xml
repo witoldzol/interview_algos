@@ -35,6 +35,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -44,7 +45,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidBSTTest.returnsFalseWhenIvalidTree">
+  <component name="RunManager" selected="JUnit.all">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="TreeHight" />
@@ -52,30 +53,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidBSTTest.returnsFalseWhenIvalidTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeValidatorTest.returnTrueWhenLeftIsSmallerThanRoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TreeHight" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidBSTTest" />
-      <option name="METHOD_NAME" value="returnsFalseWhenIvalidTree" />
+      <option name="MAIN_CLASS_NAME" value="TreeValidatorTest" />
+      <option name="METHOD_NAME" value="returnTrueWhenLeftIsSmallerThanRoot" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidBSTTest.returnsTrueWhenValidTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeValidatorTest.returnsTrueWhenValidTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TreeHight" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidBSTTest" />
+      <option name="MAIN_CLASS_NAME" value="TreeValidatorTest" />
       <option name="METHOD_NAME" value="returnsTrueWhenValidTree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="all" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TreeHight" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="PARAMETERS" value="" />
+      <dir value="$PROJECT_DIR$/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="JUnit.all" />
+      <item itemvalue="JUnit.TreeValidatorTest.returnsTrueWhenValidTree" />
+      <item itemvalue="JUnit.TreeValidatorTest.returnTrueWhenLeftIsSmallerThanRoot" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ValidBSTTest.returnsFalseWhenIvalidTree" />
-        <item itemvalue="JUnit.ValidBSTTest.returnsTrueWhenValidTree" />
+        <item itemvalue="JUnit.all" />
+        <item itemvalue="JUnit.TreeValidatorTest.returnTrueWhenLeftIsSmallerThanRoot" />
+        <item itemvalue="JUnit.TreeValidatorTest.returnsTrueWhenValidTree" />
         <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
@@ -90,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626108120963</updated>
-      <workItem from="1626108122366" duration="2952000" />
+      <workItem from="1626108122366" duration="3588000" />
     </task>
     <servers />
   </component>
@@ -98,6 +119,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="424" y="273" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626540136836">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="424" y="273" key="#com.intellij.execution.impl.EditConfigurationsDialog/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626540136836" />
     <state x="812" y="518" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1626108173134">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
@@ -106,22 +131,30 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="748" y="503" width="423" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626538588840" />
-    <state width="1920" height="353" key="GridCell.Tab.0.bottom" timestamp="1626539394865">
+    <state x="692" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1626540196271">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="353" key="GridCell.Tab.0.bottom/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626539394865" />
-    <state width="1920" height="353" key="GridCell.Tab.0.center" timestamp="1626539394865">
+    <state x="692" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626540196271" />
+    <state width="1920" height="353" key="GridCell.Tab.0.bottom" timestamp="1626540138232">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="353" key="GridCell.Tab.0.center/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626539394865" />
-    <state width="1920" height="353" key="GridCell.Tab.0.left" timestamp="1626539394864">
+    <state width="1920" height="353" key="GridCell.Tab.0.bottom/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626540138232" />
+    <state width="1920" height="353" key="GridCell.Tab.0.center" timestamp="1626540138232">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="353" key="GridCell.Tab.0.left/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626539394864" />
-    <state width="1920" height="353" key="GridCell.Tab.0.right" timestamp="1626539394865">
+    <state width="1920" height="353" key="GridCell.Tab.0.center/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626540138232" />
+    <state width="1920" height="353" key="GridCell.Tab.0.left" timestamp="1626540138231">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="353" key="GridCell.Tab.0.right/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626539394865" />
+    <state width="1920" height="353" key="GridCell.Tab.0.left/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626540138231" />
+    <state width="1920" height="353" key="GridCell.Tab.0.right" timestamp="1626540138232">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1920" height="353" key="GridCell.Tab.0.right/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626540138232" />
+    <state x="469" y="250" key="SettingsEditor" timestamp="1626540047323">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="469" y="250" key="SettingsEditor/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626540047323" />
     <state x="686" y="512" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1626538704216">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
