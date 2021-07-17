@@ -9,56 +9,40 @@ class TreeValidatorTest {
   TreeValidator validator;
 
   @BeforeEach
-  void setUp(){
+  void setUp() {
     validator = new TreeValidator();
   }
-//  void setUp(){
-//    validBST = new ValidBST();
-//
-//    validTree = new Node(6);
-//    validTree.left = new Node(4);
-//    validTree.right = new Node(7);
-//    validTree.left.left = new Node(2);
-//    validTree.left.right = new Node(5);
-//
-//    invalidTree = new Node(5);
-//    invalidTree.left = new Node(7);
-//  }
 
   @Test
-  void returnTrueWhenRootNull(){
+  void returnTrueWhenRootNull() {
     assertTrue(validator.isValidBST(null));
   }
 
   @Test
-  void returnTrueWhenLeftIsSmallerThanRoot(){
+  void returnTrueWhenLeftIsSmallerThanRoot() {
     tree = new Node(5);
     tree.left = new Node(3);
     assertTrue(validator.isValidBST(tree));
   }
 
   @Test
-  void returnFalseWhenLeftIsBiggerThanRoot(){
+  void returnFalseWhenLeftIsBiggerThanRoot() {
     tree = new Node(5);
     tree.left = new Node(7);
     assertFalse(validator.isValidBST(tree));
   }
 
   @Test
-  void returnTrueWhenRightIsBiggerThanRoot(){
+  void returnTrueWhenRightIsBiggerThanRoot() {
     tree = new Node(5);
     tree.right = new Node(7);
     assertTrue(validator.isValidBST(tree));
   }
 
   @Test
-  void returnFalseWhenRightIsSmallerThanRoot(){
+  void returnFalseWhenRightIsSmallerThanRoot() {
     tree = new Node(5);
     tree.right = new Node(3);
     assertFalse(validator.isValidBST(tree));
   }
-//  @Test
-//  void returnsFalseWhenIvalidTree(){
-//    assertFalse(validBST.isValidBST(invalidTree));
-//  }
 }
