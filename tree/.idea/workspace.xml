@@ -46,9 +46,22 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.all">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="TreeValidatorTest.returnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TreeHight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TreeValidatorTest" />
+      <option name="METHOD_NAME" value="returnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeValidatorTest.returnTrueNegativeValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TreeHight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TreeValidatorTest" />
+      <option name="METHOD_NAME" value="returnTrueNegativeValues" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,17 +100,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="JUnit.all" />
       <item itemvalue="JUnit.TreeValidatorTest.returnsTrueWhenValidTree" />
       <item itemvalue="JUnit.TreeValidatorTest.returnTrueWhenLeftIsSmallerThanRoot" />
+      <item itemvalue="JUnit.TreeValidatorTest.returnFalse" />
+      <item itemvalue="JUnit.TreeValidatorTest.returnTrueNegativeValues" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.all" />
+        <item itemvalue="JUnit.TreeValidatorTest.returnTrueNegativeValues" />
+        <item itemvalue="JUnit.TreeValidatorTest.returnFalse" />
         <item itemvalue="JUnit.TreeValidatorTest.returnTrueWhenLeftIsSmallerThanRoot" />
         <item itemvalue="JUnit.TreeValidatorTest.returnsTrueWhenValidTree" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626108120963</updated>
-      <workItem from="1626108122366" duration="3861000" />
+      <workItem from="1626108122366" duration="7257000" />
     </task>
     <servers />
   </component>
@@ -135,22 +150,22 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="692" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626540196271" />
-    <state width="1920" height="353" key="GridCell.Tab.0.bottom" timestamp="1626540521400">
+    <state width="1920" height="353" key="GridCell.Tab.0.bottom" timestamp="1626618535514">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="353" key="GridCell.Tab.0.bottom/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626540521400" />
-    <state width="1920" height="353" key="GridCell.Tab.0.center" timestamp="1626540521399">
+    <state width="1920" height="353" key="GridCell.Tab.0.bottom/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626618535514" />
+    <state width="1920" height="353" key="GridCell.Tab.0.center" timestamp="1626618535514">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="353" key="GridCell.Tab.0.center/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626540521399" />
-    <state width="1920" height="353" key="GridCell.Tab.0.left" timestamp="1626540521399">
+    <state width="1920" height="353" key="GridCell.Tab.0.center/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626618535514" />
+    <state width="1920" height="353" key="GridCell.Tab.0.left" timestamp="1626618535513">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="353" key="GridCell.Tab.0.left/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626540521399" />
-    <state width="1920" height="353" key="GridCell.Tab.0.right" timestamp="1626540521399">
+    <state width="1920" height="353" key="GridCell.Tab.0.left/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626618535513" />
+    <state width="1920" height="353" key="GridCell.Tab.0.right" timestamp="1626618535514">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="353" key="GridCell.Tab.0.right/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626540521399" />
+    <state width="1920" height="353" key="GridCell.Tab.0.right/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626618535514" />
     <state x="469" y="250" key="SettingsEditor" timestamp="1626540047323">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
@@ -163,13 +178,13 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="739" y="345" key="com.intellij.testIntegration.createTest.CreateTestDialog/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626538691166" />
-    <state x="698" y="382" key="extract.method.dialog" timestamp="1626382239160">
+    <state x="698" y="382" key="extract.method.dialog" timestamp="1626616756141">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state x="698" y="382" key="extract.method.dialog/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626382239160" />
-    <state x="623" y="286" key="search.everywhere.popup" timestamp="1626538894280">
+    <state x="698" y="382" key="extract.method.dialog/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626616756141" />
+    <state x="623" y="286" width="672" height="678" key="search.everywhere.popup" timestamp="1626616742308">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state x="623" y="286" key="search.everywhere.popup/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626538894280" />
+    <state x="623" y="286" width="672" height="678" key="search.everywhere.popup/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626616742308" />
   </component>
 </project>
