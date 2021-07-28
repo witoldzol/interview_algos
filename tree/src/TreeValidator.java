@@ -1,5 +1,6 @@
 public class TreeValidator {
   boolean isValidBST(Node root) {
+    //set min and max vals - use long if bigger number needed
     int min = Integer.MIN_VALUE;
     int max = Integer.MAX_VALUE;
     return validate(root, min, max);
