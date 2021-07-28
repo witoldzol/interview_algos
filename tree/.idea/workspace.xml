@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49ba31ec-3a64-4f0e-a479-18b331f7ef11" name="Default Changelist" comment="" />
+    <list default="true" id="49ba31ec-3a64-4f0e-a479-18b331f7ef11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1vDsiU3QxuaG4cd0WJmObrbesUJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,12 +34,14 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -126,7 +135,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626108120963</updated>
-      <workItem from="1626108122366" duration="7669000" />
+      <workItem from="1626108122366" duration="7978000" />
+      <workItem from="1627490895867" duration="1119000" />
     </task>
     <servers />
   </component>
@@ -150,22 +160,22 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="692" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626540196271" />
-    <state width="1920" height="353" key="GridCell.Tab.0.bottom" timestamp="1626619211404">
+    <state width="1920" height="353" key="GridCell.Tab.0.bottom" timestamp="1627230120198">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="353" key="GridCell.Tab.0.bottom/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626619211404" />
-    <state width="1920" height="353" key="GridCell.Tab.0.center" timestamp="1626619211403">
+    <state width="1920" height="353" key="GridCell.Tab.0.bottom/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1627230120198" />
+    <state width="1920" height="353" key="GridCell.Tab.0.center" timestamp="1627230120197">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="353" key="GridCell.Tab.0.center/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626619211403" />
-    <state width="1920" height="353" key="GridCell.Tab.0.left" timestamp="1626619211403">
+    <state width="1920" height="353" key="GridCell.Tab.0.center/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1627230120197" />
+    <state width="1920" height="353" key="GridCell.Tab.0.left" timestamp="1627230120197">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="353" key="GridCell.Tab.0.left/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626619211403" />
-    <state width="1920" height="353" key="GridCell.Tab.0.right" timestamp="1626619211403">
+    <state width="1920" height="353" key="GridCell.Tab.0.left/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1627230120197" />
+    <state width="1920" height="353" key="GridCell.Tab.0.right" timestamp="1627230120198">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1920" height="353" key="GridCell.Tab.0.right/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626619211403" />
+    <state width="1920" height="353" key="GridCell.Tab.0.right/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1627230120198" />
     <state x="469" y="250" key="SettingsEditor" timestamp="1626540047323">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
@@ -174,17 +184,22 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="686" y="512" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626538704216" />
-    <state x="739" y="345" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1626538691166">
+    <state x="739" y="345" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1627491005637">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state x="739" y="345" key="com.intellij.testIntegration.createTest.CreateTestDialog/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626538691166" />
+    <state x="739" y="345" key="com.intellij.testIntegration.createTest.CreateTestDialog/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1627491005637" />
     <state x="698" y="382" key="extract.method.dialog" timestamp="1626616756141">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="698" y="382" key="extract.method.dialog/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626616756141" />
-    <state x="623" y="286" width="672" height="678" key="search.everywhere.popup" timestamp="1626616742308">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state x="97" y="145" key="new project wizard" timestamp="1627504779150">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="97" y="145" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1627504779150" />
+    <state x="467" y="219" width="504" height="506" key="search.everywhere.popup" timestamp="1627504744027">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="467" y="219" width="504" height="506" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1627504744027" />
     <state x="623" y="286" width="672" height="678" key="search.everywhere.popup/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626616742308" />
   </component>
 </project>
