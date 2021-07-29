@@ -18,25 +18,25 @@ class InvertAndFlipMatrixTest {
     Assertions.assertArrayEquals(expected, underTest.flipAndInvert(matrix));
   }
 
-  @Test
-  public void twoElementArray() {
-    int[][] matrix = {{1}, {0}};
-    int[][] expected = {{0}, {1}};
-    Assertions.assertArrayEquals(expected, underTest.flipAndInvert(matrix));
-  }
-
-  @Test
-  public void twoByTwo() {
-    int[][] matrix = {{1, 1}, {0, 0}};
-    int[][] expected = {{0, 0}, {1, 1}};
-    Assertions.assertArrayEquals(expected, underTest.flipAndInvert(matrix));
-  }
-
-  @Test
-  public void threeByThree() {
-    int[][] matrix = {{1, 1, 0}, {1, 0, 0}};
-    int[][] expected = {{1, 0, 0}, {1, 1, 0}};
-    System.out.println(Arrays.deepToString(underTest.flipAndInvert(matrix)));
-    Assertions.assertArrayEquals(expected, underTest.flipAndInvert(matrix));
-  }
+//  @Test
+//  public void twoElementArray() {
+//    int[][] matrix = {{1}, {0}};
+//    int[][] expected = {{0}, {1}};
+//    Assertions.assertArrayEquals(expected, underTest.flipAndInvert(matrix));
+//  }
+//
+//  @Test
+//  public void twoByTwo() {
+//    int[][] matrix = {{1, 1}, {0, 0}};
+//    int[][] expected = {{0, 0}, {1, 1}};
+//    Assertions.assertArrayEquals(expected, underTest.flipAndInvert(matrix));
+//  }
+//
+//  @Test
+//  public void threeByThree() {
+//    int[][] matrix = {{1, 1, 0}, {1, 0, 0}};
+//    int[][] expected = {{1, 0, 0}, {1, 1, 0}};
+//    System.out.println(Arrays.deepToString(underTest.flipAndInvert(matrix)));
+//    Assertions.assertArrayEquals(expected, underTest.flipAndInvert(matrix));
+//  }
 }
