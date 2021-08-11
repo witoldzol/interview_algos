@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49ba31ec-3a64-4f0e-a479-18b331f7ef11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ValidateBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +137,9 @@
       <updated>1626108120963</updated>
       <workItem from="1626108122366" duration="7978000" />
       <workItem from="1627490895867" duration="1119000" />
+      <workItem from="1627731740721" duration="103000" />
+      <workItem from="1627805694888" duration="624000" />
+      <workItem from="1628708721999" duration="519000" />
     </task>
     <servers />
   </component>
@@ -148,6 +151,10 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="424" y="273" key="#com.intellij.execution.impl.EditConfigurationsDialog/213.1223.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1626540136836" />
+    <state x="659" y="421" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628711453737">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="659" y="421" key="#com.intellij.fileTypes.FileTypeChooser/-1440.323.1440.877/0.23.1920.1177@0.23.1920.1177" timestamp="1628711453737" />
     <state x="812" y="518" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1626108173134">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
