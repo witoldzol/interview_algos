@@ -9,8 +9,9 @@ class CrossroadsTest {
     char[][] arr = {
         {'S', 'C'}
     };
+    Matrix matrix = new Matrix(arr);
     Crossroads c = new Crossroads();
-    int result = c.getMax(0, 0, arr);
+    int result = c.getMax(0, 0, matrix);
     assertEquals(0, result);
   }
 
@@ -20,8 +21,9 @@ class CrossroadsTest {
         {'S', 'C'},
         {'P', 'C'}
     };
+    Matrix matrix = new Matrix(arr);
     Crossroads c = new Crossroads();
-    int result = c.getMax(0, 0, arr);
+    int result = c.getMax(0, 0, matrix);
     assertEquals(1, result);
   }
   @Test
@@ -31,8 +33,9 @@ class CrossroadsTest {
         {'P', 'P', 'P'},
         {'E', 'E', 'E'}
     };
+    Matrix matrix = new Matrix(arr);
     Crossroads c = new Crossroads();
-    int result = c.getMax(0, 0, arr);
+    int result = c.getMax(0, 0, matrix);
     assertEquals(0, result);
   }
 
@@ -43,8 +46,9 @@ class CrossroadsTest {
         {'P', 'P', 'P'},
         {'P', 'E', 'E'}
     };
+    Matrix matrix = new Matrix(arr);
     Crossroads c = new Crossroads();
-    int result = c.getMax(0, 0, arr);
+    int result = c.getMax(0, 0, matrix);
     assertEquals(1,result);
   }
 }

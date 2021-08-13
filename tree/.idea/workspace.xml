@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49ba31ec-3a64-4f0e-a479-18b331f7ef11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../array/src/Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../array/out/production/array/Crossroads.class" beforeDir="false" afterPath="$PROJECT_DIR$/../array/out/production/array/Crossroads.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../array/out/production/array/CrossroadsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../array/out/production/array/CrossroadsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../array/src/Crossroads.java" beforeDir="false" afterPath="$PROJECT_DIR$/../array/src/Crossroads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../array/src/CrossroadsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../array/src/CrossroadsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
