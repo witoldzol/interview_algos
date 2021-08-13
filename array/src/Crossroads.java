@@ -1,23 +1,28 @@
-import java.util.Arrays;
-import java.util.List;
-
 public class Crossroads {
+  boolean isEnd(char c) {
+    return c == 'C';
+  }
+
+  boolean isValidPath(char c) {
+    return (c == 'P' || c == 'S');
+  }
+
   int getMax(int i, int j, char[][] arr) {
     return visit(i, j, arr, 0);
   }
 
   int visit(int i, int j, char[][] arr, int crossroads) {
     if (isValidCoordinates(i, j, arr)) {
-      if (arr[i][j] == 'C') {
+      //check if we reached the end
+      if (isEnd(arr[i][j])) {
         return crossroads;
       }
-      if(arr[i][j] != 'P' && arr[i][j] != 'S'){
+      if (!isValidPath(arr[i][j])) {
         return crossroads;
       }
-      arr[i][j] = 'V';
-      //mark visited
-      int p = calculatePaths(i, j, arr);
-      if( p == 0) {
+      markCellAsVisited(i, j, arr);
+      int p = calculateCrossroads(i, j, arr);
+      if (p == 0) {
         return 0;
       }
       if (p > 1) {
@@ -28,8 +33,12 @@ public class Crossroads {
           Math.max(visit(i, j + 1, arr, crossroads), visit(i, j - 1, arr, crossroads))
       );
     } else {
-      return crossroads;
+      return 0;
     }
+  }
+
+  private void markCellAsVisited(int i, int j, char[][] arr) {
+    arr[i][j] = 'V';
   }
 
   private boolean isValidCoordinates(int i, int j, char[][] arr) {
@@ -45,7 +54,7 @@ public class Crossroads {
     return false;
   }
 
-  int calculatePaths(int i, int j, char[][] arr) {
+  int calculateCrossroads(int i, int j, char[][] arr) {
     int maxI = arr.length;
     int maxJ = 0;
     if (i >= 0 && i < maxI) {
