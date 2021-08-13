@@ -1,19 +1,10 @@
 public class Crossroads {
-  boolean isEnd(char c) {
-    return c == 'C';
-  }
-
-  boolean isValidPath(char c) {
-    return (c == 'P' || c == 'S');
-  }
-
   int getMax(int i, int j, char[][] arr) {
     return visit(i, j, arr, 0);
   }
 
   int visit(int i, int j, char[][] arr, int crossroads) {
-    if (isValidCoordinates(i, j, arr)) {
-      //check if we reached the end
+    if (isCoordinatesValid(i, j, arr)) {
       if (isEnd(arr[i][j])) {
         return crossroads;
       }
@@ -29,29 +20,50 @@ public class Crossroads {
         crossroads += p - 1;
       }
       return Math.max(
-          Math.max(visit(i + 1, j, arr, crossroads), visit(i - 1, j, arr, crossroads)),
-          Math.max(visit(i, j + 1, arr, crossroads), visit(i, j - 1, arr, crossroads))
+          Math.max(goUp(i, j, arr, crossroads), goDown(i, j, arr, crossroads)),
+          Math.max(goRight(i, j, arr, crossroads), goLeft(i, j, arr, crossroads)
+          )
       );
     } else {
       return 0;
     }
   }
 
+  boolean isEnd(char c) {
+    return c == 'C';
+  }
+
+  boolean isValidPath(char c) {
+    return (c == 'P' || c == 'S');
+  }
+
+  int goLeft(int i, int j, char[][] arr, int crossroads) {
+    return visit(i, j - 1, arr, crossroads);
+  }
+
+  int goRight(int i, int j, char[][] arr, int crossroads) {
+    return visit(i, j + 1, arr, crossroads);
+  }
+
+  int goUp(int i, int j, char[][] arr, int crossroads) {
+    return visit(i + 1, j, arr, crossroads);
+  }
+
+  int goDown(int i, int j, char[][] arr, int crossroads) {
+    return visit(i - 1, j, arr, crossroads);
+  }
+
   private void markCellAsVisited(int i, int j, char[][] arr) {
     arr[i][j] = 'V';
   }
 
-  private boolean isValidCoordinates(int i, int j, char[][] arr) {
+  private boolean isCoordinatesValid(int i, int j, char[][] arr) {
     int maxI = arr.length;
     int maxJ = 0;
     if (i >= 0 && i < maxI) {
       maxJ = arr[i].length;
     }
-    if (i >= 0 && i < maxI && j >= 0 && j < maxJ) {
-
-      return true;
-    }
-    return false;
+    return i >= 0 && i < maxI && j >= 0 && j < maxJ;
   }
 
   int calculateCrossroads(int i, int j, char[][] arr) {
