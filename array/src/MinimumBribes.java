@@ -1,15 +1,19 @@
 public class MinimumBribes {
-  int calculate(int[] q) {
+  int calculate(int[] q) throws Exception {
     int counter = 0;
-    int bribesSoFar = 0;
     for (int i = 0; i < q.length; i++) {
       if (isWithinBounds(i + 1, q)) {
-        //curr (index + bribesSoFar) - (value -1)
-//        if ((i + bribesSoFar - q[i] - 1) > 2) {
-//          throw new Exception("Too Chaotic");
-//        }
-        counter += q[i] - (i + 1);
-
+        int outsideOriginalIndex = q[i] - (i + 1);
+        if (outsideOriginalIndex > 0) {
+          counter += outsideOriginalIndex;
+        } else {
+          if(q[i + 1] < q[i]){
+            counter -= outsideOriginalIndex;
+          }
+        }
+        if ((q[i] - (i+1)) > 2) {
+          throw new Exception("Too Chaotic");
+        }
       }
     }
     return counter;
