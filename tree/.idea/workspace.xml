@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49ba31ec-3a64-4f0e-a479-18b331f7ef11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../array/out/production/array/Crossroads.class" beforeDir="false" afterPath="$PROJECT_DIR$/../array/out/production/array/Crossroads.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../array/out/production/array/Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/../array/out/production/array/Matrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../array/src/Crossroads.java" beforeDir="false" afterPath="$PROJECT_DIR$/../array/src/Crossroads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../array/src/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../array/src/Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
