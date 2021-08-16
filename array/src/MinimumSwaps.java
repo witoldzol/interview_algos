@@ -1,11 +1,10 @@
 public class MinimumSwaps {
-  private final int[] arr;
-
-  public MinimumSwaps(int[] arr) {
-    this.arr = arr;
+  public int calculate(int[] arr) {
+    return 1;
   }
 
-  public int calculate() {
-    return 1;
+  int[] mergeSort(int[] arr) {
+    if(arr.length==1) return arr;
+    return arr;
   }
 }
