@@ -44,7 +44,31 @@ class MinimumSwapsTest {
   void mergeSort() {
     int[] arr = {1};
     int[] expected = {1};
-    int[] result = swaps.merge(arr);
+    int[] result = swaps.sort(arr);
+    assertArrayEquals(expected, result);
+  }
+
+  @Test
+  void mergeSortTwo() {
+    int[] arr = {2, 1};
+    int[] expected = {1, 2};
+    int[] result = swaps.sort(arr);
+    assertArrayEquals(expected, result);
+  }
+
+  @Test
+  void mergeSortThree() {
+    int[] arr = {2, 1, 3};
+    int[] expected = {1, 2, 3};
+    int[] result = swaps.sort(arr);
+    assertArrayEquals(expected, result);
+  }
+
+  @Test
+  void mergeSortFour() {
+    int[] arr = {4, 2, 1, 3};
+    int[] expected = {1, 2, 3, 4};
+    int[] result = swaps.sort(arr);
     assertArrayEquals(expected, result);
   }
 }
