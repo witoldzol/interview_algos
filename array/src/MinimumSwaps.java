@@ -7,17 +7,14 @@ public class MinimumSwaps {
     if (arr.length < 2) {
       return arr;
     }
-    int mid = arr.length / 2;
+    int middle = arr.length / 2;
     //temp arrays
-    int[] left = new int[mid];
-    int[] right = new int[arr.length - mid];
+    int[] left = new int[middle];
+    int[] right = new int[arr.length - middle];
     //copy arrays
-    for (int i = 0; i < mid; i++) {
-      left[i] = arr[i];
-    }
-    for (int i = mid; i < arr.length; i++) {
-      right[i - mid] = arr[i];
-    }
+    System.arraycopy(arr, 0, left, 0, middle);
+    System.arraycopy(arr, middle, right, 0, arr.length - middle);
+
     left = sort(left);
     right = sort(right);
 
