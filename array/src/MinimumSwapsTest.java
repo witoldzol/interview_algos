@@ -1,4 +1,3 @@
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -38,37 +37,5 @@ class MinimumSwapsTest {
     int[] arr = {3, 1, 2};
     int result = swaps.calculate(arr);
     assertEquals(2, result);
-  }
-
-  @Test
-  void mergeSort() {
-    int[] arr = {1};
-    int[] expected = {1};
-    int[] result = swaps.sort(arr);
-    assertArrayEquals(expected, result);
-  }
-
-  @Test
-  void mergeSortTwo() {
-    int[] arr = {2, 1};
-    int[] expected = {1, 2};
-    int[] result = swaps.sort(arr);
-    assertArrayEquals(expected, result);
-  }
-
-  @Test
-  void mergeSortThree() {
-    int[] arr = {2, 1, 3};
-    int[] expected = {1, 2, 3};
-    int[] result = swaps.sort(arr);
-    assertArrayEquals(expected, result);
-  }
-
-  @Test
-  void mergeSortFour() {
-    int[] arr = {4, 2, 1, 3};
-    int[] expected = {1, 2, 3, 4};
-    int[] result = swaps.sort(arr);
-    assertArrayEquals(expected, result);
   }
 }
